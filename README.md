@@ -1,3 +1,9 @@
+# Run the tests
+
+npm install
+
+npm run test
+
 # ACME Supermarket
 
 Create a solution for the ACME Supermarket problem.

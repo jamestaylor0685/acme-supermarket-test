@@ -4,7 +4,7 @@
   "description": "ACME JavaScript Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -14,10 +14,14 @@
     "javascript",
     "test"
   ],
-  "author": "",
+  "author": "James Taylor",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ag-digital/acme-supermarket-test/issues"
   },
-  "homepage": "https://github.com/ag-digital/acme-supermarket-test#readme"
+  "homepage": "https://github.com/ag-digital/acme-supermarket-test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
